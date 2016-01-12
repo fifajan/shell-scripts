@@ -3,7 +3,7 @@
 DEVICE="/dev/video1"
 TIMEOUT="1" # in seconds, between shots
 QUALITY="92" # JPEG quality
-RES="1920x1080"
+RES="1280x720"
 
 while true; do
     TIMESTAMP="date +%Y.%m.%d-%Hh.%Mm.%Ss"
