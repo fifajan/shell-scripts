@@ -6,7 +6,7 @@ COUNT=0
 
 for F in "$@" ;
 do
-    EXT=".jpeg"
+    EXT=".jpg"
     FILENAME=`printf %08d $COUNT`
 	mv "$F" "$FILENAME""$EXT"
     COUNT=$((COUNT+1))
